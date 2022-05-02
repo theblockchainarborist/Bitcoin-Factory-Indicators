@@ -1,0 +1,804 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+            Pivots
+*******************************
+
+
+            {
+                "dataMine": "Pivots",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleLowLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleHighLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Daily-Pivot-Points",
+                "product": "Daily-Pivot-Points",
+                "objectName": "Daypivot",
+                "propertyName": "s4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Daily-Pivot-Points",
+                "product": "Daily-Pivot-Points",
+                "objectName": "Daypivot",
+                "propertyName": "s3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Daily-Pivot-Points",
+                "product": "Daily-Pivot-Points",
+                "objectName": "Daypivot",
+                "propertyName": "s2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Daily-Pivot-Points",
+                "product": "Daily-Pivot-Points",
+                "objectName": "Daypivot",
+                "propertyName": "s1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Daily-Pivot-Points",
+                "product": "Daily-Pivot-Points",
+                "objectName": "Daypivot",
+                "propertyName": "r4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Daily-Pivot-Points",
+                "product": "Daily-Pivot-Points",
+                "objectName": "Daypivot",
+                "propertyName": "r3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Daily-Pivot-Points",
+                "product": "Daily-Pivot-Points",
+                "objectName": "Daypivot",
+                "propertyName": "r2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Daily-Pivot-Points",
+                "product": "Daily-Pivot-Points",
+                "objectName": "Daypivot",
+                "propertyName": "r1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Daily-Pivot-Points",
+                "product": "Daily-Pivot-Points",
+                "objectName": "Daypivot",
+                "propertyName": "pivot",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Fib",
+                "product": "Pivot-Points-Fib",
+                "objectName": "PivotFib",
+                "propertyName": "s3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Fib",
+                "product": "Pivot-Points-Fib",
+                "objectName": "PivotFib",
+                "propertyName": "s2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Fib",
+                "product": "Pivot-Points-Fib",
+                "objectName": "PivotFib",
+                "propertyName": "s1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Fib",
+                "product": "Pivot-Points-Fib",
+                "objectName": "PivotFib",
+                "propertyName": "r3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Fib",
+                "product": "Pivot-Points-Fib",
+                "objectName": "PivotFib",
+                "propertyName": "r2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Fib",
+                "product": "Pivot-Points-Fib",
+                "objectName": "PivotFib",
+                "propertyName": "r1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Fib",
+                "product": "Pivot-Points-Fib",
+                "objectName": "PivotFib",
+                "propertyName": "pivot",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Woodie",
+                "product": "Pivot-Points-Woodie",
+                "objectName": "PivotWoodie",
+                "propertyName": "s4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Woodie",
+                "product": "Pivot-Points-Woodie",
+                "objectName": "PivotWoodie",
+                "propertyName": "s3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Woodie",
+                "product": "Pivot-Points-Woodie",
+                "objectName": "PivotWoodie",
+                "propertyName": "s2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Woodie",
+                "product": "Pivot-Points-Woodie",
+                "objectName": "PivotWoodie",
+                "propertyName": "s1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Woodie",
+                "product": "Pivot-Points-Woodie",
+                "objectName": "PivotWoodie",
+                "propertyName": "r4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Woodie",
+                "product": "Pivot-Points-Woodie",
+                "objectName": "PivotWoodie",
+                "propertyName": "r3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Woodie",
+                "product": "Pivot-Points-Woodie",
+                "objectName": "PivotWoodie",
+                "propertyName": "r2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Woodie",
+                "product": "Pivot-Points-Woodie",
+                "objectName": "PivotWoodie",
+                "propertyName": "r1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Woodie",
+                "product": "Pivot-Points-Woodie",
+                "objectName": "PivotWoodie",
+                "propertyName": "pivot",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Camarilla",
+                "product": "Pivot-Points-Camarilla",
+                "objectName": "PivotCamarilla",
+                "propertyName": "s4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Camarilla",
+                "product": "Pivot-Points-Camarilla",
+                "objectName": "PivotCamarilla",
+                "propertyName": "s3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Camarilla",
+                "product": "Pivot-Points-Camarilla",
+                "objectName": "PivotCamarilla",
+                "propertyName": "s2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Camarilla",
+                "product": "Pivot-Points-Camarilla",
+                "objectName": "PivotCamarilla",
+                "propertyName": "s1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Camarilla",
+                "product": "Pivot-Points-Camarilla",
+                "objectName": "PivotCamarilla",
+                "propertyName": "r4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Camarilla",
+                "product": "Pivot-Points-Camarilla",
+                "objectName": "PivotCamarilla",
+                "propertyName": "r3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Camarilla",
+                "product": "Pivot-Points-Camarilla",
+                "objectName": "PivotCamarilla",
+                "propertyName": "r2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Camarilla",
+                "product": "Pivot-Points-Camarilla",
+                "objectName": "PivotCamarilla",
+                "propertyName": "r1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Camarilla",
+                "product": "Pivot-Points-Camarilla",
+                "objectName": "PivotCamarilla",
+                "propertyName": "pivot",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Denmark",
+                "product": "Pivot-Points-Denmark",
+                "objectName": "PivotDenmark",
+                "propertyName": "s1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Denmark",
+                "product": "Pivot-Points-Denmark",
+                "objectName": "PivotDenmark",
+                "propertyName": "r1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Pivot-Points-Denmark",
+                "product": "Pivot-Points-Denmark",
+                "objectName": "PivotDenmark",
+                "propertyName": "pivot",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Key-Levels",
+                "objectName": "KeyLevel",
+                "propertyName": "yearly",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Key-Levels",
+                "objectName": "KeyLevel",
+                "propertyName": "quarterly",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Key-Levels",
+                "objectName": "KeyLevel",
+                "propertyName": "monthly",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Key-Levels",
+                "objectName": "KeyLevel",
+                "propertyName": "weekly",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Key-Levels",
+                "objectName": "KeyLevel",
+                "propertyName": "daily",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-Key-Levels",
+                "objectName": "PrevKeyLevel",
+                "propertyName": "yearlyPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-Key-Levels",
+                "objectName": "PrevKeyLevel",
+                "propertyName": "quarterlyPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-Key-Levels",
+                "objectName": "PrevKeyLevel",
+                "propertyName": "monthlyPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-Key-Levels",
+                "objectName": "PrevKeyLevel",
+                "propertyName": "weeklyPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-Key-Levels",
+                "objectName": "PrevKeyLevel",
+                "propertyName": "dailyPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-Key-Levels",
+                "objectName": "PrevKeyLevel",
+                "propertyName": "yearly",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-Key-Levels",
+                "objectName": "PrevKeyLevel",
+                "propertyName": "quarterly",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-Key-Levels",
+                "objectName": "PrevKeyLevel",
+                "propertyName": "monthly",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-Key-Levels",
+                "objectName": "PrevKeyLevel",
+                "propertyName": "weekly",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-Key-Levels",
+                "objectName": "PrevKeyLevel",
+                "propertyName": "daily",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-HL-Key-Levels",
+                "objectName": "PrevHLKeyLevel",
+                "propertyName": "yearlyLowPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-HL-Key-Levels",
+                "objectName": "PrevHLKeyLevel",
+                "propertyName": "yearlyHighPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-HL-Key-Levels",
+                "objectName": "PrevHLKeyLevel",
+                "propertyName": "quarterLowPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-HL-Key-Levels",
+                "objectName": "PrevHLKeyLevel",
+                "propertyName": "quarterHighPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-HL-Key-Levels",
+                "objectName": "PrevHLKeyLevel",
+                "propertyName": "monthlyLowPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-HL-Key-Levels",
+                "objectName": "PrevHLKeyLevel",
+                "propertyName": "monthlyHighPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-HL-Key-Levels",
+                "objectName": "PrevHLKeyLevel",
+                "propertyName": "weeklyLowPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-HL-Key-Levels",
+                "objectName": "PrevHLKeyLevel",
+                "propertyName": "weeklyHighPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-HL-Key-Levels",
+                "objectName": "PrevHLKeyLevel",
+                "propertyName": "dailyLowPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pivots",
+                "indicator": "Key-Levels",
+                "product": "Previous-HL-Key-Levels",
+                "objectName": "PrevHLKeyLevel",
+                "propertyName": "dailyHighPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            

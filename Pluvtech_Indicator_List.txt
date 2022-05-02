@@ -1,0 +1,308 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+            Pluvtech
+*******************************
+
+
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "Fisher",
+                "product": "Fisher",
+                "objectName": "Fisher",
+                "propertyName": "trigger",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "Fisher",
+                "product": "Fisher",
+                "objectName": "Fisher",
+                "propertyName": "fisher",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "HMA",
+                "product": "HMA",
+                "objectName": "HMA",
+                "propertyName": "hma",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "McGinley",
+                "product": "MD",
+                "objectName": "MD",
+                "propertyName": "closePrice",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "McGinley",
+                "product": "MD",
+                "objectName": "MD",
+                "propertyName": "md",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "WMA",
+                "product": "WMA",
+                "objectName": "WMA",
+                "propertyName": "closePrice",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "WMA",
+                "product": "WMA",
+                "objectName": "WMA",
+                "propertyName": "wma",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "Volume-WMA",
+                "product": "VWMA",
+                "objectName": "VWMA",
+                "propertyName": "closePrice",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "Volume-WMA",
+                "product": "VWMA",
+                "objectName": "VWMA",
+                "propertyName": "vwma",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "low6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "low5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "low4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "low3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "low2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "low1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "up6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "up5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "up4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "up3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "up2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "up1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "fibBB",
+                "product": "fibBB",
+                "objectName": "fibBB",
+                "propertyName": "basis",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "MAMA",
+                "product": "MAMA",
+                "objectName": "MAMA",
+                "propertyName": "closePrice",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "MAMA",
+                "product": "MAMA",
+                "objectName": "MAMA",
+                "propertyName": "fama",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Pluvtech",
+                "indicator": "MAMA",
+                "product": "MAMA",
+                "objectName": "MAMA",
+                "propertyName": "mama",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },

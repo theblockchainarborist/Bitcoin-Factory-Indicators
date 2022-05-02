@@ -1,0 +1,1548 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+            Sparta
+*******************************
+
+
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Popular-SMAs",
+                "objectName": "popularSMA",
+                "propertyName": "sma200",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Popular-SMAs",
+                "objectName": "popularSMA",
+                "propertyName": "sma100",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Popular-SMAs",
+                "objectName": "popularSMA",
+                "propertyName": "sma50",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Popular-SMAs",
+                "objectName": "popularSMA",
+                "propertyName": "sma20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma1400",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma700",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma350",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma280",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma210",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma140",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma70",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma35",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma28",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma21",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma14",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base7-SMAs",
+                "objectName": "base7SMA",
+                "propertyName": "sma7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base11-SMAs",
+                "objectName": "base11SMA",
+                "propertyName": "sma111",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base11-SMAs",
+                "objectName": "base11SMA",
+                "propertyName": "sma55",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base11-SMAs",
+                "objectName": "base11SMA",
+                "propertyName": "sma33",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base11-SMAs",
+                "objectName": "base11SMA",
+                "propertyName": "sma22",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base11-SMAs",
+                "objectName": "base11SMA",
+                "propertyName": "sma11",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma1000",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma500",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma250",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma200",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma150",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma100",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma50",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma25",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma15",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base5-SMAs",
+                "objectName": "base5SMA",
+                "propertyName": "sma5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma1200",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma600",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma300",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma240",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma180",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma120",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma60",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma24",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma18",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma12",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base6-SMAs",
+                "objectName": "base6SMA",
+                "propertyName": "sma6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma1200",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma600",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma480",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma360",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma240",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma120",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma60",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma48",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma36",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma24",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base12-SMAs",
+                "objectName": "base12SMA",
+                "propertyName": "sma12",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base30-SMAs",
+                "objectName": "base30SMA",
+                "propertyName": "sma1500",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base30-SMAs",
+                "objectName": "base30SMA",
+                "propertyName": "sma1200",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base30-SMAs",
+                "objectName": "base30SMA",
+                "propertyName": "sma900",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base30-SMAs",
+                "objectName": "base30SMA",
+                "propertyName": "sma600",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base30-SMAs",
+                "objectName": "base30SMA",
+                "propertyName": "sma300",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base30-SMAs",
+                "objectName": "base30SMA",
+                "propertyName": "sma150",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base30-SMAs",
+                "objectName": "base30SMA",
+                "propertyName": "sma120",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base30-SMAs",
+                "objectName": "base30SMA",
+                "propertyName": "sma90",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base30-SMAs",
+                "objectName": "base30SMA",
+                "propertyName": "sma60",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "SMA",
+                "product": "Base30-SMAs",
+                "objectName": "base30SMA",
+                "propertyName": "sma30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Popular-EMAs",
+                "objectName": "popularEMA",
+                "propertyName": "ema200",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Popular-EMAs",
+                "objectName": "popularEMA",
+                "propertyName": "ema100",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Popular-EMAs",
+                "objectName": "popularEMA",
+                "propertyName": "ema50",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Popular-EMAs",
+                "objectName": "popularEMA",
+                "propertyName": "ema20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema1000",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema500",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema250",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema200",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema150",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema100",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema50",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema25",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema15",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base5-EMAs",
+                "objectName": "base5EMA",
+                "propertyName": "ema5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema1200",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema600",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema300",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema240",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema180",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema120",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema60",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema24",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema18",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema12",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base6-EMAs",
+                "objectName": "base6EMA",
+                "propertyName": "ema6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema1400",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema700",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema350",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema280",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema210",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema140",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema70",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema35",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema28",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema21",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema14",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base7-EMAs",
+                "objectName": "base7EMA",
+                "propertyName": "ema7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base11-EMAs",
+                "objectName": "base11EMA",
+                "propertyName": "ema111",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base11-EMAs",
+                "objectName": "base11EMA",
+                "propertyName": "ema55",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base11-EMAs",
+                "objectName": "base11EMA",
+                "propertyName": "ema33",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base11-EMAs",
+                "objectName": "base11EMA",
+                "propertyName": "ema22",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base11-EMAs",
+                "objectName": "base11EMA",
+                "propertyName": "ema11",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema1200",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema600",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema480",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema360",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema240",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema120",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema60",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema48",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema36",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema24",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base12-EMAs",
+                "objectName": "base12EMA",
+                "propertyName": "ema12",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base30-EMAs",
+                "objectName": "base30EMA",
+                "propertyName": "ema1500",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base30-EMAs",
+                "objectName": "base30EMA",
+                "propertyName": "ema1200",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base30-EMAs",
+                "objectName": "base30EMA",
+                "propertyName": "ema900",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base30-EMAs",
+                "objectName": "base30EMA",
+                "propertyName": "ema600",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base30-EMAs",
+                "objectName": "base30EMA",
+                "propertyName": "ema300",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base30-EMAs",
+                "objectName": "base30EMA",
+                "propertyName": "ema150",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base30-EMAs",
+                "objectName": "base30EMA",
+                "propertyName": "ema120",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base30-EMAs",
+                "objectName": "base30EMA",
+                "propertyName": "ema90",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base30-EMAs",
+                "objectName": "base30EMA",
+                "propertyName": "ema60",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "EMA",
+                "product": "Base30-EMAs",
+                "objectName": "base30EMA",
+                "propertyName": "ema30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "MACD",
+                "product": "MACD-122609",
+                "objectName": "macd122609",
+                "propertyName": "histogram",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "MACD",
+                "product": "MACD-031016",
+                "objectName": "macd031016",
+                "propertyName": "histogram",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "MACD",
+                "product": "MACD-081709",
+                "objectName": "macd081709",
+                "propertyName": "histogram",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "MACD",
+                "product": "MACD-245209",
+                "objectName": "macd245209",
+                "propertyName": "histogram",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Sparta",
+                "indicator": "RSI",
+                "product": "RSI-14",
+                "objectName": "rsi14",
+                "propertyName": "value",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            
+
+
+
+
+
+
+
