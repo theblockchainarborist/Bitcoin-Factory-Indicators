@@ -1,0 +1,914 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+        Smart Money
+*******************************
+
+
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bearBoxFourBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bearBoxFourTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bearBoxThreeBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bearBoxThreeTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bullBoxFourBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bullBoxFourTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bullBoxThreeBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bullBoxThreeTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bearBoxTwoTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bearBoxTwoBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bearBoxOneBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bearBoxOneTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bullBoxTwoTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bullBoxTwoBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bullBoxOneBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "orderBlock",
+                "product": "OB",
+                "objectName": "OB",
+                "propertyName": "bullBoxOneTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bearBoxFourBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bearBoxFourTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bearBoxThreeBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bearBoxThreeTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bullBoxFourBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bullBoxFourTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bullBoxThreeBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bullBoxThreeTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bearBoxTwoTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bearBoxTwFVGottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bearBoxOneBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bearBoxOneTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bullBoxTwoTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bullBoxTwFVGottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bullBoxOneBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "fairValueGap",
+                "product": "FVG",
+                "objectName": "FVG",
+                "propertyName": "bullBoxOneTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bearBoxFourBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bearBoxFourTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bearBoxThreeBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bearBoxThreeTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bullBoxFourBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bullBoxFourTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bullBoxThreeBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bullBoxThreeTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bearBoxTwoTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bearBoxTwBOSottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bearBoxOneBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bearBoxOneTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bullBoxTwoTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bullBoxTwBOSottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bullBoxOneBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "BreakOfStructureBlock",
+                "product": "BOS",
+                "objectName": "BOS",
+                "propertyName": "bullBoxOneTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleLowLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleHighLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "HL-Pivot-Points",
+                "product": "HL-Pivot-Points",
+                "objectName": "HLpivot",
+                "propertyName": "candleHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bearBoxFourBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bearBoxFourTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bearBoxThreeBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bearBoxThreeTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bullBoxFourBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bullBoxFourTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bullBoxThreeBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bullBoxThreeTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bearBoxTwoTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bearBoxTwRJBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bearBoxOneBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bearBoxOneTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bullBoxTwoTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bullBoxTwRJBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bullBoxOneBottom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "rejectionBlock",
+                "product": "RJB",
+                "objectName": "RJB",
+                "propertyName": "bullBoxOneTop",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "PPDD",
+                "product": "PPDD",
+                "objectName": "PPDD",
+                "propertyName": "plotDD",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "PPDD",
+                "product": "PPDD",
+                "objectName": "PPDD",
+                "propertyName": "plotPP",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "PPDD",
+                "product": "PPDD",
+                "objectName": "PPDD",
+                "propertyName": "DDweak",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "PPDD",
+                "product": "PPDD",
+                "objectName": "PPDD",
+                "propertyName": "DDstrong",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "PPDD",
+                "product": "PPDD",
+                "objectName": "PPDD",
+                "propertyName": "PPweak",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "PPDD",
+                "product": "PPDD",
+                "objectName": "PPDD",
+                "propertyName": "PPstrong",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "highVolumeBar",
+                "product": "HVB",
+                "objectName": "HVB",
+                "propertyName": "bearHVB",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Smart Money",
+                "indicator": "highVolumeBar",
+                "product": "HVB",
+                "objectName": "HVB",
+                "propertyName": "bullHVB",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            
