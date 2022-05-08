@@ -1,0 +1,385 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+            Omega-One
+*******************************
+
+
+            {
+                "dataMine": "Omega-One",
+                "indicator": "Chaikin-Oscillator",
+                "product": "chaikinOscillator",
+                "objectName": "chaikinOscillator",
+                "propertyName": "zeroLine",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "Chaikin-Oscillator",
+                "product": "chaikinOscillator",
+                "objectName": "chaikinOscillator",
+                "propertyName": "chaikinOscillator",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Slow",
+                "product": "slowARPS",
+                "objectName": "slowARPS",
+                "propertyName": "percentageApsBear",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Slow",
+                "product": "slowARPS",
+                "objectName": "slowARPS",
+                "propertyName": "percentageApsBull",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Slow",
+                "product": "slowARPS",
+                "objectName": "slowARPS",
+                "propertyName": "percentageARPS",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Slow",
+                "product": "slowARPS",
+                "objectName": "slowARPS",
+                "propertyName": "SMA",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Slow",
+                "product": "slowARPS",
+                "objectName": "slowARPS",
+                "propertyName": "apsBear",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Slow",
+                "product": "slowARPS",
+                "objectName": "slowARPS",
+                "propertyName": "apsBull",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Slow",
+                "product": "slowARPS",
+                "objectName": "slowARPS",
+                "propertyName": "ARPS",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Fast",
+                "product": "fastARPS",
+                "objectName": "fastARPS",
+                "propertyName": "percentageApsBear",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Fast",
+                "product": "fastARPS",
+                "objectName": "fastARPS",
+                "propertyName": "percentageApsBull",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Fast",
+                "product": "fastARPS",
+                "objectName": "fastARPS",
+                "propertyName": "percentageARPS",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Fast",
+                "product": "fastARPS",
+                "objectName": "fastARPS",
+                "propertyName": "SMA",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Fast",
+                "product": "fastARPS",
+                "objectName": "fastARPS",
+                "propertyName": "apsBear",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Fast",
+                "product": "fastARPS",
+                "objectName": "fastARPS",
+                "propertyName": "apsBull",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ARPS-Fast",
+                "product": "fastARPS",
+                "objectName": "fastARPS",
+                "propertyName": "ARPS",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "averageVsAverage",
+                "product": "averageVsAverage",
+                "objectName": "averageVsAverage",
+                "propertyName": "openInterestDeviation",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "averageVsAverage",
+                "product": "averageVsAverage",
+                "objectName": "averageVsAverage",
+                "propertyName": "volumeDeviation",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "averageVsAverage",
+                "product": "averageVsAverage",
+                "objectName": "averageVsAverage",
+                "propertyName": "smaPrice",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "averageVsAverage",
+                "product": "averageVsAverage",
+                "objectName": "averageVsAverage",
+                "propertyName": "bullPriceDeviation",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "Triple-ALMA",
+                "product": "tripleALMA",
+                "objectName": "tripleALMA",
+                "propertyName": "alma03",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "Triple-ALMA",
+                "product": "tripleALMA",
+                "objectName": "tripleALMA",
+                "propertyName": "alma02",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "Triple-ALMA",
+                "product": "tripleALMA",
+                "objectName": "tripleALMA",
+                "propertyName": "alma01",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "emaCrossing",
+                "product": "emaCrossing",
+                "objectName": "emaCrossing",
+                "propertyName": "ema02",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "emaCrossing",
+                "product": "emaCrossing",
+                "objectName": "emaCrossing",
+                "propertyName": "ema01",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "CMA",
+                "product": "cma",
+                "objectName": "cma",
+                "propertyName": "cma",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "ALMA",
+                "product": "ALMA",
+                "objectName": "ALMA",
+                "propertyName": "alma01",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "anchoredVwapChannel",
+                "product": "anchoredVwapChannel",
+                "objectName": "anchoredVwapChannel",
+                "propertyName": "devLo2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "anchoredVwapChannel",
+                "product": "anchoredVwapChannel",
+                "objectName": "anchoredVwapChannel",
+                "propertyName": "devLo1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "anchoredVwapChannel",
+                "product": "anchoredVwapChannel",
+                "objectName": "anchoredVwapChannel",
+                "propertyName": "devHi2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "anchoredVwapChannel",
+                "product": "anchoredVwapChannel",
+                "objectName": "anchoredVwapChannel",
+                "propertyName": "devHi1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-One",
+                "indicator": "anchoredVwapChannel",
+                "product": "anchoredVwapChannel",
+                "objectName": "anchoredVwapChannel",
+                "propertyName": "vwap",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },

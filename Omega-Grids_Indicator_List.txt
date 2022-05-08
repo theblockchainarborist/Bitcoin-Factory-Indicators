@@ -1,0 +1,1243 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+            Omega-Grids
+*******************************
+
+
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "gridRange",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid19",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid18",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid17",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid16",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid15",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid14",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid13",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid12",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid11",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid9",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid8",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "fixedPercentageGrid",
+                "product": "fixedPercentageGrid",
+                "objectName": "fixedPercentageGrid",
+                "propertyName": "grid0",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "gridRange",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid19",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid18",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid17",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid16",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid15",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid14",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid13",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid12",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid11",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid9",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid8",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "atrBasedGrid",
+                "product": "atrBasedGrid",
+                "objectName": "atrBasedGrid",
+                "propertyName": "grid0",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "gridRange",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid19",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid18",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid17",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid16",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid15",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid14",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid13",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid12",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid11",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid9",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid8",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "periodBasedGrid",
+                "product": "periodBasedGrid",
+                "objectName": "periodBasedGrid",
+                "propertyName": "grid0",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "gridRange",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid19",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid18",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid17",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid16",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid15",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid14",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid13",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid12",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid11",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid9",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid8",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "bbGrid",
+                "product": "bbGrid",
+                "objectName": "bbGrid",
+                "propertyName": "grid0",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "gridRange",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid19",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid18",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid17",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid16",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid15",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid14",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid13",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid12",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid11",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid9",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid8",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Omega-Grids",
+                "indicator": "smoothedAtrGrid",
+                "product": "smoothedAtrGrid",
+                "objectName": "smoothedAtrGrid",
+                "propertyName": "grid0",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
