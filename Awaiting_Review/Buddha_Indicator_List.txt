@@ -1,0 +1,506 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+            Buddha
+*******************************
+
+
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "min",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "meanLength",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "sizeMethod",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "Nlengths",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "sizeFactor",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "dojiFactor",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "Nbodies",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "avgRef",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "meanBody",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "length",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "lowerShadow",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "upperShadow",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "body",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "lowerShadowPercent",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "bodyPercent",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "upperShadowPercent",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "direction",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "size",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Basic-Candles",
+                "objectName": "basicCandle",
+                "propertyName": "name",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "One-Candle-Patterns",
+                "objectName": "oneCandlePattern",
+                "propertyName": "trendMethod",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "One-Candle-Patterns",
+                "objectName": "oneCandlePattern",
+                "propertyName": "period",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "One-Candle-Patterns",
+                "objectName": "oneCandlePattern",
+                "propertyName": "bullishArrowHead",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "One-Candle-Patterns",
+                "objectName": "oneCandlePattern",
+                "propertyName": "bearishArrowHead",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "One-Candle-Patterns",
+                "objectName": "oneCandlePattern",
+                "propertyName": "trendLine",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "One-Candle-Patterns",
+                "objectName": "oneCandlePattern",
+                "propertyName": "forecast",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "One-Candle-Patterns",
+                "objectName": "oneCandlePattern",
+                "propertyName": "trend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "One-Candle-Patterns",
+                "objectName": "oneCandlePattern",
+                "propertyName": "name",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Two-Candles-Patterns",
+                "objectName": "twoCandlePattern",
+                "propertyName": "trendMethod",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Two-Candles-Patterns",
+                "objectName": "twoCandlePattern",
+                "propertyName": "period",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Two-Candles-Patterns",
+                "objectName": "twoCandlePattern",
+                "propertyName": "trendLine",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Two-Candles-Patterns",
+                "objectName": "twoCandlePattern",
+                "propertyName": "bearishArrowHead",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Two-Candles-Patterns",
+                "objectName": "twoCandlePattern",
+                "propertyName": "bullishArrowHead",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Two-Candles-Patterns",
+                "objectName": "twoCandlePattern",
+                "propertyName": "forecast",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Two-Candles-Patterns",
+                "objectName": "twoCandlePattern",
+                "propertyName": "trend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Two-Candles-Patterns",
+                "objectName": "twoCandlePattern",
+                "propertyName": "name",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Three-Candles-Patterns",
+                "objectName": "threeCandlePattern",
+                "propertyName": "trendMethod",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Three-Candles-Patterns",
+                "objectName": "threeCandlePattern",
+                "propertyName": "period",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Three-Candles-Patterns",
+                "objectName": "threeCandlePattern",
+                "propertyName": "trendLine",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Three-Candles-Patterns",
+                "objectName": "threeCandlePattern",
+                "propertyName": "bearishArrowHead",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Three-Candles-Patterns",
+                "objectName": "threeCandlePattern",
+                "propertyName": "bullishArrowHead",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Three-Candles-Patterns",
+                "objectName": "threeCandlePattern",
+                "propertyName": "forecast",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Three-Candles-Patterns",
+                "objectName": "threeCandlePattern",
+                "propertyName": "trend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Buddha",
+                "indicator": "Candle-Patterns",
+                "product": "Three-Candles-Patterns",
+                "objectName": "threeCandlePattern",
+                "propertyName": "name",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },

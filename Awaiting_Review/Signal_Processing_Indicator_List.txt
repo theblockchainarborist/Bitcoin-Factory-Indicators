@@ -1,0 +1,484 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+        Signal_Processing
+*******************************
+
+
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Low_Pass",
+                "product": "lowpass",
+                "objectName": "lowpass",
+                "propertyName": "trend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Low_Pass",
+                "product": "lowpass",
+                "objectName": "lowpass",
+                "propertyName": "LP",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "High_Pass",
+                "product": "highpass",
+                "objectName": "highpass",
+                "propertyName": "HP",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Correlation_coefficient",
+                "product": "Correlation",
+                "objectName": "Correlation",
+                "propertyName": "l",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Correlation_coefficient",
+                "product": "Correlation",
+                "objectName": "Correlation",
+                "propertyName": "s",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Butterworth",
+                "product": "Butterworth",
+                "objectName": "Butterworth",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Butterworth",
+                "product": "Butterworth",
+                "objectName": "Butterworth",
+                "propertyName": "bf",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Goertzel_DFT",
+                "product": "Goertzel_DFT",
+                "objectName": "Goertzel_DFT",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Goertzel_DFT",
+                "product": "Goertzel_DFT",
+                "objectName": "Goertzel_DFT",
+                "propertyName": "p",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Goertzel_DFT",
+                "product": "Goertzel_DFT_Theta",
+                "objectName": "Goertzel_DFT_Theta",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Goertzel_DFT",
+                "product": "Goertzel_DFT_Theta",
+                "objectName": "Goertzel_DFT_Theta",
+                "propertyName": "p",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Decycler",
+                "product": "Decycler",
+                "objectName": "Decycler",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Decycler",
+                "product": "Decycler",
+                "objectName": "Decycler",
+                "propertyName": "dc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "1D_Kalman",
+                "product": "1D_Kalman",
+                "objectName": "1D_Kalman",
+                "propertyName": "est",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Adaptative_Cyber_Cycle",
+                "product": "Cyber_Cycle",
+                "objectName": "Cyber_Cycle",
+                "propertyName": "trig",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Adaptative_Cyber_Cycle",
+                "product": "Cyber_Cycle",
+                "objectName": "Cyber_Cycle",
+                "propertyName": "ac",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Voss_Predictive_Filter",
+                "product": "Voss_Predictive_Filter",
+                "objectName": "Voss_Predictive_Filter",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Voss_Predictive_Filter",
+                "product": "Voss_Predictive_Filter",
+                "objectName": "Voss_Predictive_Filter",
+                "propertyName": "filt",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Voss_Predictive_Filter",
+                "product": "Voss_Predictive_Filter",
+                "objectName": "Voss_Predictive_Filter",
+                "propertyName": "voss",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Early_Onset_Trend",
+                "product": "Early_Onset_Trend",
+                "objectName": "Early_Onset_Trend",
+                "propertyName": "q2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Early_Onset_Trend",
+                "product": "Early_Onset_Trend",
+                "objectName": "Early_Onset_Trend",
+                "propertyName": "q1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "DFT_Dominent_Cycle",
+                "product": "DFT_Dominent_Cycle",
+                "objectName": "DFT_Dominent_Cycle",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "DFT_Dominent_Cycle",
+                "product": "DFT_Dominent_Cycle",
+                "objectName": "DFT_Dominent_Cycle",
+                "propertyName": "dom",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "DFT_Dominent_Cycle",
+                "product": "DFT_Dominent_Cycle",
+                "objectName": "DFT_Dominent_Cycle",
+                "propertyName": "hp",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "DFT_Dominent_Cycle",
+                "product": "DFT_Dominent_Cycle",
+                "objectName": "DFT_Dominent_Cycle",
+                "propertyName": "dc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "DFT_Dominent_Cycle",
+                "product": "DFT_Dominent_Cycle",
+                "objectName": "DFT_Dominent_Cycle",
+                "propertyName": "db",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Non_Linnear_FilterR",
+                "product": "Non_Linnear_FilterR",
+                "objectName": "Non_Linnear_FilterR",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Non_Linnear_FilterR",
+                "product": "Non_Linnear_FilterR",
+                "objectName": "Non_Linnear_FilterR",
+                "propertyName": "filter",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Decaying_Non_Linear_Filter",
+                "product": "Decaying_Non_Linear_Filter",
+                "objectName": "Decaying_Non_Linear_Filter",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Decaying_Non_Linear_Filter",
+                "product": "Decaying_Non_Linear_Filter",
+                "objectName": "Decaying_Non_Linear_Filter",
+                "propertyName": "filter",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Laguerre_Filter",
+                "product": "Laguerre_Filter",
+                "objectName": "Laguerre_Filter",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Laguerre_Filter",
+                "product": "Laguerre_Filter",
+                "objectName": "Laguerre_Filter",
+                "propertyName": "filter",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "AM_FM_Demodulator",
+                "product": "AM_FM_Demodulator",
+                "objectName": "AM_FM_Demodulator",
+                "propertyName": "trend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "AM_FM_Demodulator",
+                "product": "AM_FM_Demodulator",
+                "objectName": "AM_FM_Demodulator",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "AM_FM_Demodulator",
+                "product": "AM_FM_Demodulator",
+                "objectName": "AM_FM_Demodulator",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "AM_FM_Demodulator",
+                "product": "AM_FM_Demodulator",
+                "objectName": "AM_FM_Demodulator",
+                "propertyName": "fm",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "AM_FM_Demodulator",
+                "product": "AM_FM_Demodulator",
+                "objectName": "AM_FM_Demodulator",
+                "propertyName": "deriv",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Mode_Analyzer",
+                "product": "Mode_Analyzer",
+                "objectName": "Mode_Analyzer",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Mode_Analyzer",
+                "product": "Mode_Analyzer",
+                "objectName": "Mode_Analyzer",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Mode_Analyzer",
+                "product": "Mode_Analyzer",
+                "objectName": "Mode_Analyzer",
+                "propertyName": "mean",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Signal_Processing",
+                "indicator": "Noise_Elimination_Technology",
+                "product": "NET",
+                "objectName": "NET",
+                "propertyName": "filter",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },

@@ -1,0 +1,1694 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+            Divergences
+*******************************
+
+
+            {
+                "dataMine": "Divergences",
+                "indicator": "RSI",
+                "product": "RSI-14",
+                "objectName": "rsi14",
+                "propertyName": "value",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "divPerc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "strength",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "status",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "candLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "candHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "oscLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "oscHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "candleLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "candleHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "oscLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "oscHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "candleLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "candleHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "oscLowLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "oscLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "oscHighLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "rsi_Div",
+                "product": "RSI-Div",
+                "objectName": "rsiDiv",
+                "propertyName": "oscHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "CCI",
+                "product": "CCI",
+                "objectName": "cci",
+                "propertyName": "value",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "divPerc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "strength",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "status",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "candLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "candHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "oscLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "oscHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "candleLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "candleHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "oscLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "oscHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "candleLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "candleHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "oscLowLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "oscLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "oscHighLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci_Div",
+                "product": "CCI-Div",
+                "objectName": "cciDiv",
+                "propertyName": "oscHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "MFI",
+                "product": "MFI",
+                "objectName": "mfi",
+                "propertyName": "oversold",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "MFI",
+                "product": "MFI",
+                "objectName": "mfi",
+                "propertyName": "overbought",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "MFI",
+                "product": "MFI",
+                "objectName": "mfi",
+                "propertyName": "value",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "divPerc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "strength",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "status",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "candLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "candHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "oscLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "oscHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "candleLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "candleHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "oscLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "oscHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "candleLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "candleHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "oscLowLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "oscLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "oscHighLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "mfi_Div",
+                "product": "MFI-Div",
+                "objectName": "mfiDiv",
+                "propertyName": "oscHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "Awesome",
+                "product": "AwesomeOsc",
+                "objectName": "ao",
+                "propertyName": "value",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "divPerc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "strength",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "status",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "candLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "candHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "oscLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "oscHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "candleLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "candleHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "oscLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "oscHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "candleLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "candleHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "oscLowLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "oscLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "oscHighLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "ao_Div",
+                "product": "awe-Div",
+                "objectName": "aweDiv",
+                "propertyName": "oscHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "KlingerOsc",
+                "product": "KlingerOsc",
+                "objectName": "ko",
+                "propertyName": "trend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "KlingerOsc",
+                "product": "KlingerOsc",
+                "objectName": "ko",
+                "propertyName": "vf",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "KlingerOsc",
+                "product": "KlingerOsc",
+                "objectName": "ko",
+                "propertyName": "signal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "KlingerOsc",
+                "product": "KlingerOsc",
+                "objectName": "ko",
+                "propertyName": "value",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "divPerc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "strength",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "status",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "candLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "candHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "oscLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "oscHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "candleLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "candleHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "oscLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "oscHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "candleLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "candleHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "oscLowLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "oscLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "oscHighLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "kvo_Div",
+                "product": "kvo-Div",
+                "objectName": "kvoDiv",
+                "propertyName": "oscHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "Stochastic",
+                "product": "StochStandard",
+                "objectName": "stochastic",
+                "propertyName": "slowLine",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "Stochastic",
+                "product": "StochStandard",
+                "objectName": "stochastic",
+                "propertyName": "fastLine",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "divPerc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "strength",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "status",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "candLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "candHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "oscLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "oscHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "candleLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "candleHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "oscLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "oscHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "candleLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "candleHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "oscLowLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "oscLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "oscHighLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "stoch_Div",
+                "product": "Stoch-Div",
+                "objectName": "stochDiv",
+                "propertyName": "oscHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "UltimateOsc",
+                "product": "UltimateOsc",
+                "objectName": "UO",
+                "propertyName": "value",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "divPerc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "strength",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "status",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "candLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "candHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "oscLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "oscHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "candleLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "candleHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "oscLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "oscHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "candleLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "candleHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "oscLowLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "oscLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "oscHighLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "uo_Div",
+                "product": "uo-Div",
+                "objectName": "uoDiv",
+                "propertyName": "oscHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "CCI-Stoch",
+                "product": "Cci-Stoch",
+                "objectName": "CciStoch",
+                "propertyName": "value",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "CCI-Stoch",
+                "product": "Cci-Stoch",
+                "objectName": "CciStoch",
+                "propertyName": "cci",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "divPerc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "strength",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "status",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "candLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "candHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "oscLoPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "oscHiPrevLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "candleLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "candleHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "oscLowValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "oscHighValPrev",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "candleLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "candleHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "oscLowLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "oscLowVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "oscHighLoc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Divergences",
+                "indicator": "cci-Stoch_Div",
+                "product": "cci-Stoch-Div",
+                "objectName": "cci-stoch-Div",
+                "propertyName": "oscHighVal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },

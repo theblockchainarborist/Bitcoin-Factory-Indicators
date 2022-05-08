@@ -1,0 +1,1377 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+            Polus
+*******************************
+
+
+            {
+                "dataMine": "Polus",
+                "indicator": "Fisher-MFI",
+                "product": "Fisher-MFI",
+                "objectName": "fishermfi",
+                "propertyName": "trig",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Fisher-MFI",
+                "product": "Fisher-MFI",
+                "objectName": "fishermfi",
+                "propertyName": "fish",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price1d",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price5d",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price10d",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price20d",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price30d",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price40d",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price45d",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "fend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "fbegin",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price45",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price40",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "price1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Monte-Carlo_Forecast",
+                "product": "MonteCarloForecast",
+                "objectName": "MonteCarloForecast",
+                "propertyName": "forecast1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Keltner_POLUS",
+                "product": "KeltnerEMA",
+                "objectName": "POLUSkeltnerema",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Keltner_POLUS",
+                "product": "KeltnerEMA",
+                "objectName": "POLUSkeltnerema",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Keltner_POLUS",
+                "product": "KeltnerEMA",
+                "objectName": "POLUSkeltnerema",
+                "propertyName": "ema",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Keltner_POLUS",
+                "product": "Keltner",
+                "objectName": "keltner",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Keltner_POLUS",
+                "product": "Keltner",
+                "objectName": "keltner",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Keltner_POLUS",
+                "product": "Keltner",
+                "objectName": "keltner",
+                "propertyName": "MAMA",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Keltner_POLUS",
+                "product": "MAMA",
+                "objectName": "MAMA",
+                "propertyName": "closePrice",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Keltner_POLUS",
+                "product": "MAMA",
+                "objectName": "MAMA",
+                "propertyName": "fama",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Keltner_POLUS",
+                "product": "MAMA",
+                "objectName": "MAMA",
+                "propertyName": "mama",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "One_Minute_Counters",
+                "product": "OneMinCOunter",
+                "objectName": "onemincounter",
+                "propertyName": "OneHR",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "VolatilityIndex",
+                "objectName": "VolatilityIndex",
+                "propertyName": "ema",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "VolatilityIndex",
+                "objectName": "VolatilityIndex",
+                "propertyName": "downKelt",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "VolatilityIndex",
+                "objectName": "VolatilityIndex",
+                "propertyName": "upKelt",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "VolatilityIndex",
+                "objectName": "VolatilityIndex",
+                "propertyName": "LOWbol",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "VolatilityIndex",
+                "objectName": "VolatilityIndex",
+                "propertyName": "UPbol",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "VolatilityIndex",
+                "objectName": "VolatilityIndex",
+                "propertyName": "BOLMA",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "VolatilityIndex",
+                "objectName": "VolatilityIndex",
+                "propertyName": "lowvol",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "VolatilityIndex",
+                "objectName": "VolatilityIndex",
+                "propertyName": "upvol",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "WeightedVolatilityOscillator",
+                "objectName": "wvo",
+                "propertyName": "wbo",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "WeightedVolatilityOscillator",
+                "objectName": "wvo",
+                "propertyName": "wto",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "WeightedVolatilityOscillator",
+                "objectName": "wvo",
+                "propertyName": "histogram",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "VAMA",
+                "objectName": "VAMA",
+                "propertyName": "trend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "VAMA",
+                "objectName": "VAMA",
+                "propertyName": "vama",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "sn",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "sd",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "h",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "f",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "e",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "d",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "c",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "b",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "a",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "signal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "RVI",
+                "objectName": "rvi",
+                "propertyName": "rvi",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "Volatility_Bands",
+                "objectName": "VolB",
+                "propertyName": "low",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "Volatility_Bands",
+                "objectName": "VolB",
+                "propertyName": "up",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "VolatilityIndex",
+                "product": "Volatility_Bands",
+                "objectName": "VolB",
+                "propertyName": "vama",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "SNR",
+                "product": "EhlersSignalToNoise",
+                "objectName": "SNR",
+                "propertyName": "hl",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "SNR",
+                "product": "EhlersSignalToNoise",
+                "objectName": "SNR",
+                "propertyName": "smooth",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "SNR",
+                "product": "EhlersSignalToNoise",
+                "objectName": "SNR",
+                "propertyName": "snr",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "PPB",
+                "objectName": "PPB",
+                "propertyName": "h01",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "PPB",
+                "objectName": "PPB",
+                "propertyName": "l01",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "PPB",
+                "objectName": "PPB",
+                "propertyName": "l02",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "PPB",
+                "objectName": "PPB",
+                "propertyName": "h02",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "PPB",
+                "objectName": "PPB",
+                "propertyName": "l1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "PPB",
+                "objectName": "PPB",
+                "propertyName": "l30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "PPB",
+                "objectName": "PPB",
+                "propertyName": "h1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "PPB",
+                "objectName": "PPB",
+                "propertyName": "h30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "Periodic_Return_Sigma_Probabilities",
+                "objectName": "PRSP",
+                "propertyName": "Z",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "ProdSigma",
+                "objectName": "sigma",
+                "propertyName": "Z",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "pr",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "l01",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "h01",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "l02",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "h02",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "l1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "h1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "l15",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "h15",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "l30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RPB",
+                "objectName": "RPB",
+                "propertyName": "h30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "strike",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "Z",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Price_Probabilities",
+                "product": "RMax",
+                "objectName": "rmax",
+                "propertyName": "Z",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Time_Segmented_Volume",
+                "product": "TSV",
+                "objectName": "TSV",
+                "propertyName": "orange",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Time_Segmented_Volume",
+                "product": "TSV",
+                "objectName": "TSV",
+                "propertyName": "histogram",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Time_Segmented_Volume",
+                "product": "TSV",
+                "objectName": "TSV",
+                "propertyName": "green",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Time_Segmented_Volume",
+                "product": "TSV",
+                "objectName": "TSV",
+                "propertyName": "red",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Time_Segmented_Volume",
+                "product": "TSV",
+                "objectName": "TSV",
+                "propertyName": "signal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Auto_adaptative_RSI",
+                "product": "Auto_adaptative_RSI",
+                "objectName": "Auto_adaptative_RSI",
+                "propertyName": "valueD",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Auto_adaptative_RSI",
+                "product": "Auto_adaptative_RSI",
+                "objectName": "Auto_adaptative_RSI",
+                "propertyName": "valueK",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Auto_adaptative_RSI",
+                "product": "Auto_adaptative_RSI",
+                "objectName": "Auto_adaptative_RSI",
+                "propertyName": "stochRSI",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Auto_adaptative_RSI",
+                "product": "Auto_adaptative_RSI",
+                "objectName": "Auto_adaptative_RSI",
+                "propertyName": "rsi",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Surprise_Indicator",
+                "product": "Surprise_Indicator",
+                "objectName": "Surprise_Indicator",
+                "propertyName": "accu",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Surprise_Indicator",
+                "product": "Surprise_Indicator",
+                "objectName": "Surprise_Indicator",
+                "propertyName": "maz",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Surprise_Indicator",
+                "product": "Surprise_Indicator",
+                "objectName": "Surprise_Indicator",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Surprise_Indicator",
+                "product": "Surprise_Indicator",
+                "objectName": "Surprise_Indicator",
+                "propertyName": "z",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Surprise_Indicator",
+                "product": "Surprise_Indicator",
+                "objectName": "Surprise_Indicator",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Elegant_oscillator",
+                "product": "Elegant_oscillator",
+                "objectName": "Elegant_oscillator",
+                "propertyName": "vart",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Elegant_oscillator",
+                "product": "Elegant_oscillator",
+                "objectName": "Elegant_oscillator",
+                "propertyName": "SS",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Elegant_oscillator",
+                "product": "Elegant_oscillator",
+                "objectName": "Elegant_oscillator",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Elegant_oscillator",
+                "product": "Elegant_oscillator",
+                "objectName": "Elegant_oscillator",
+                "propertyName": "filter",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Center_of_gravity",
+                "product": "Center_of_gravity",
+                "objectName": "Center_of_gravity",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Center_of_gravity",
+                "product": "Center_of_gravity",
+                "objectName": "Center_of_gravity",
+                "propertyName": "trig",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Center_of_gravity",
+                "product": "Center_of_gravity",
+                "objectName": "Center_of_gravity",
+                "propertyName": "s",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Laguerre_RSI",
+                "product": "Laguerre_RSI",
+                "objectName": "Laguerre_RSI",
+                "propertyName": "rsi",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "DSMA",
+                "product": "DSMA",
+                "objectName": "DSMA",
+                "propertyName": "t",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "DSMA",
+                "product": "DSMA",
+                "objectName": "DSMA",
+                "propertyName": "filter",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Volatility_probe",
+                "product": "Volatility_probe",
+                "objectName": "Volatility_probe",
+                "propertyName": "maz",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Volatility_probe",
+                "product": "Volatility_probe",
+                "objectName": "Volatility_probe",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Volatility_probe",
+                "product": "Volatility_probe",
+                "objectName": "Volatility_probe",
+                "propertyName": "z",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Volatility_probe",
+                "product": "Volatility_probe",
+                "objectName": "Volatility_probe",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "OTT",
+                "product": "OTT",
+                "objectName": "OTT",
+                "propertyName": "close",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "OTT",
+                "product": "OTT",
+                "objectName": "OTT",
+                "propertyName": "h",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "OTT",
+                "product": "OTT",
+                "objectName": "OTT",
+                "propertyName": "var",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "OTT",
+                "product": "OTT",
+                "objectName": "OTT",
+                "propertyName": "ott",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Adaptative_Price_Zone",
+                "product": "Adaptative_Price_Zone",
+                "objectName": "Adaptative_Price_Zone",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Adaptative_Price_Zone",
+                "product": "Adaptative_Price_Zone",
+                "objectName": "Adaptative_Price_Zone",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Adaptative_Price_Zone",
+                "product": "Adaptative_Price_Zone",
+                "objectName": "Adaptative_Price_Zone",
+                "propertyName": "ema",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "Kendall_Correlation",
+                "product": "Kendall_Correlation",
+                "objectName": "Kendall_Correlation",
+                "propertyName": "tau",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "AlphaTrend",
+                "product": "AlphaTrend",
+                "objectName": "AlphaTrend",
+                "propertyName": "close",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "AlphaTrend",
+                "product": "AlphaTrend",
+                "objectName": "AlphaTrend",
+                "propertyName": "var",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Polus",
+                "indicator": "AlphaTrend",
+                "product": "AlphaTrend",
+                "objectName": "AlphaTrend",
+                "propertyName": "ott",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            
+

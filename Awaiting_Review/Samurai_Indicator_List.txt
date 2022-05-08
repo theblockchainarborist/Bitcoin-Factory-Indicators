@@ -1,0 +1,770 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+            Samurai
+*******************************
+
+
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Probabilities",
+                "product": "Candles-Probabilities",
+                "objectName": "candlesProbability",
+                "propertyName": "directionSide",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Probabilities",
+                "product": "Candles-Probabilities",
+                "objectName": "candlesProbability",
+                "propertyName": "directionDown",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Probabilities",
+                "product": "Candles-Probabilities",
+                "objectName": "candlesProbability",
+                "propertyName": "directionUp",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "countAll",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "countUp",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "countDown",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "countSide",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "maxUp",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "maxDown",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "maxSide",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp8",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown8",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide8",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp9",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown9",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide9",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityUp10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilityDown10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "probabilitySide10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextUp1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextDown1",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextUp2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextDown2",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextUp3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextDown3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextUp4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextDown4",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextUp5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextDown5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextUp6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextDown6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextUp7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextDown7",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextUp8",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextDown8",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextUp9",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextDown9",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextUp10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Candles-Channels-Probabilities",
+                "product": "Candles-Channels-Probabilities",
+                "objectName": "candlesChannelsProbability",
+                "propertyName": "nextDown10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Fees-Band",
+                "product": "Fees-Band",
+                "objectName": "feesBand",
+                "propertyName": "endLowerBand",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Fees-Band",
+                "product": "Fees-Band",
+                "objectName": "feesBand",
+                "propertyName": "endUpperBand",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Fees-Band",
+                "product": "Fees-Band",
+                "objectName": "feesBand",
+                "propertyName": "beginLowerBand",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Samurai",
+                "indicator": "Fees-Band",
+                "product": "Fees-Band",
+                "objectName": "feesBand",
+                "propertyName": "beginUpperBand",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },

@@ -1,0 +1,891 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+            Quasar
+*******************************
+
+
+            {
+                "dataMine": "Quasar",
+                "indicator": "Super-Trend143",
+                "product": "Super-Trend143",
+                "objectName": "superTrend143",
+                "propertyName": "trend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Super-Trend143",
+                "product": "Super-Trend143",
+                "objectName": "superTrend143",
+                "propertyName": "downtrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Super-Trend143",
+                "product": "Super-Trend143",
+                "objectName": "superTrend143",
+                "propertyName": "uptrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Super-Trend143",
+                "product": "Super-Trend143",
+                "objectName": "superTrend143",
+                "propertyName": "atrNPeriod",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Super-Trend143",
+                "product": "Super-Trend143",
+                "objectName": "superTrend143",
+                "propertyName": "trueRange",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Super-Trend92",
+                "product": "Super-Trend92",
+                "objectName": "superTrend92",
+                "propertyName": "trend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Super-Trend92",
+                "product": "Super-Trend92",
+                "objectName": "superTrend92",
+                "propertyName": "downtrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Super-Trend92",
+                "product": "Super-Trend92",
+                "objectName": "superTrend92",
+                "propertyName": "uptrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Super-Trend92",
+                "product": "Super-Trend92",
+                "objectName": "superTrend92",
+                "propertyName": "atrNPeriod",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Super-Trend92",
+                "product": "Super-Trend92",
+                "objectName": "superTrend92",
+                "propertyName": "trueRange",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend",
+                "product": "FastTrend",
+                "objectName": "FastTrend",
+                "propertyName": "intertrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend",
+                "product": "FastTrend",
+                "objectName": "FastTrend",
+                "propertyName": "FastTrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend",
+                "product": "FastTrend",
+                "objectName": "FastTrend",
+                "propertyName": "NegativeDisorder",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend",
+                "product": "FastTrend",
+                "objectName": "FastTrend",
+                "propertyName": "PositiveDisorder",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "OBV",
+                "product": "OBV",
+                "objectName": "OBV",
+                "propertyName": "VEma3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "OBV",
+                "product": "OBV",
+                "objectName": "OBV",
+                "propertyName": "VEma5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "OBV",
+                "product": "OBV",
+                "objectName": "OBV",
+                "propertyName": "VEma10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "OBV",
+                "product": "OBV",
+                "objectName": "OBV",
+                "propertyName": "VEma20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "OBV",
+                "product": "OBV",
+                "objectName": "OBV",
+                "propertyName": "OBV",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "VolOsc",
+                "product": "VOSC",
+                "objectName": "VOSC",
+                "propertyName": "oscs",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "VolOsc",
+                "product": "VOSC",
+                "objectName": "VOSC",
+                "propertyName": "oscb",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "VolOsc",
+                "product": "VOSC",
+                "objectName": "VOSC",
+                "propertyName": "osc",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "T30end",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "T20end",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "T10end",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "T5end",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "T30begin",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "T20begin",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "T10begin",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "T5begin",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "maxForecast30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "minForecast30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "maxForecast20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "minForecast20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "maxForecast10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "minForecast10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "maxForecast5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "minForecast5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "trend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "forecast30",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "forecast20",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "forecast10",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "forecast5",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "B",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "level",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "Forecast",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Holt-Winters",
+                "product": "HoltWinters",
+                "objectName": "HoltWinters",
+                "propertyName": "PastForecast",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend3",
+                "product": "FastTrend3",
+                "objectName": "FastTrend3",
+                "propertyName": "intertrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend3",
+                "product": "FastTrend3",
+                "objectName": "FastTrend3",
+                "propertyName": "FastTrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend3",
+                "product": "FastTrend3",
+                "objectName": "FastTrend3",
+                "propertyName": "NegativeDisorder",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend3",
+                "product": "FastTrend3",
+                "objectName": "FastTrend3",
+                "propertyName": "PositiveDisorder",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend5",
+                "product": "FastTrend5",
+                "objectName": "FastTrend5",
+                "propertyName": "intertrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend5",
+                "product": "FastTrend5",
+                "objectName": "FastTrend5",
+                "propertyName": "FastTrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend5",
+                "product": "FastTrend5",
+                "objectName": "FastTrend5",
+                "propertyName": "NegativeDisorder",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend5",
+                "product": "FastTrend5",
+                "objectName": "FastTrend5",
+                "propertyName": "PositiveDisorder",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend20",
+                "product": "FastTrend20",
+                "objectName": "FastTrend20",
+                "propertyName": "intertrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend20",
+                "product": "FastTrend20",
+                "objectName": "FastTrend20",
+                "propertyName": "FastTrend",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend20",
+                "product": "FastTrend20",
+                "objectName": "FastTrend20",
+                "propertyName": "NegativeDisorder",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FastTrend20",
+                "product": "FastTrend20",
+                "objectName": "FastTrend20",
+                "propertyName": "PositiveDisorder",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "OBV-Integral",
+                "product": "OBVInt",
+                "objectName": "OBVInt",
+                "propertyName": "OBVInt3",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "OBV-Integral",
+                "product": "OBVInt",
+                "objectName": "OBVInt",
+                "propertyName": "OBVInt",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "OBV-Span",
+                "product": "OBVSpan",
+                "objectName": "OBVSpan",
+                "propertyName": "NegSpan",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "OBV-Span",
+                "product": "OBVSpan",
+                "objectName": "OBVSpan",
+                "propertyName": "PosSpan",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "OBV-TrendSpan",
+                "product": "OBVTrendSpan",
+                "objectName": "OBVTrendSpan",
+                "propertyName": "trendspan",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "BetterSineWave",
+                "product": "BSV36",
+                "objectName": "BSV36",
+                "propertyName": "bsv36",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "BetterSineWave",
+                "product": "BSV6",
+                "objectName": "BSV6",
+                "propertyName": "bsv6",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "VWMACD",
+                "product": "VWMACD",
+                "objectName": "VWMACD",
+                "propertyName": "histogram",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "VWMACD",
+                "product": "VWMACD",
+                "objectName": "VWMACD",
+                "propertyName": "vwemas",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "VWMACD",
+                "product": "VWMACD",
+                "objectName": "VWMACD",
+                "propertyName": "vwemaf",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "VWMACD",
+                "product": "VWMACD",
+                "objectName": "VWMACD",
+                "propertyName": "signal",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "VWMACD",
+                "product": "VWMACD",
+                "objectName": "VWMACD",
+                "propertyName": "line",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "FDI",
+                "product": "FDI",
+                "objectName": "FDI",
+                "propertyName": "fdi",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Rescaled_Range",
+                "product": "Rescaled_Range",
+                "objectName": "Rescaled_Range",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Rescaled_Range",
+                "product": "Rescaled_Range",
+                "objectName": "Rescaled_Range",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "eVWATR",
+                "product": "eVWATR",
+                "objectName": "eVWATR",
+                "propertyName": "atr",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Buy_eVWATR",
+                "product": "Buy_eVWATR",
+                "objectName": "Buy_eVWATR",
+                "propertyName": "atr",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "Sell_eVWATR",
+                "product": "Sell_eVWATR",
+                "objectName": "Sell_eVWATR",
+                "propertyName": "atr",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Quasar",
+                "indicator": "self_cointegration",
+                "product": "self_cointegration",
+                "objectName": "self_cointegration",
+                "propertyName": "rm",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
