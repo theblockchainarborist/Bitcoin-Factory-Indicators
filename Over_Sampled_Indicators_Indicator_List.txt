@@ -1,0 +1,396 @@
+
+For:
+        Bitcoin-Factory
+
+
+What we are after:
+                    What we are looking for is which properties make sense to include in the machine learning tests.
+                    Which properties might be able to be used to forcast the next candle?
+
+                    If you could either mark the useful ones somehow (any sort of mark will do)
+                     or delete the entries not needed & send it back to me!
+
+                    All properties deemed useful will be compiled in a list set to "OFF" that way we can turn them "ON" when ready!  
+
+
+
+An example from Luis:
+                        "For example I made the Support and Resistance indicator, and from the more than 50 properties I only included 10.
+                        Since the rest might be relevant for a trading bot, or are useful to plot the data, but in that case only the 5 levels
+                         of resistance and 5 levels of support I believe could be relevant for the forecasting of the next candle.
+                        So the idea is to include in the list only the relevants."
+
+
+A node from Luis:
+                    "Another thing that we are not ready for right now are calculated properties and properties with non numeric values.  
+                    The properties with formulas are calculated properties, we are not ready to handle those yet."
+
+
+*******************************
+    Over_Sampled_Indicators
+*******************************
+
+
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "map",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "sigma",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "ma",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "insta",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "slope",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "strike",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "Min_Sigma",
+                "objectName": "MinSigma",
+                "propertyName": "Z",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "RMax",
+                "objectName": "rmax",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "RMax",
+                "objectName": "rmax",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Over_Sampled_Probabilities",
+                "product": "RMax",
+                "objectName": "rmax",
+                "propertyName": "Z",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "OverSampled_Bollinger_Bands",
+                "product": "OverSampled_Bollinger_Bands",
+                "objectName": "OverSampled_Bollinger_Bands",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "OverSampled_Bollinger_Bands",
+                "product": "OverSampled_Bollinger_Bands",
+                "objectName": "OverSampled_Bollinger_Bands",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "OverSampled_Bollinger_Bands",
+                "product": "OverSampled_Bollinger_Bands",
+                "objectName": "OverSampled_Bollinger_Bands",
+                "propertyName": "MA",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Close_Z_Probability",
+                "product": "Close_Sigma",
+                "objectName": "CloseSigma",
+                "propertyName": "map",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Close_Z_Probability",
+                "product": "Close_Sigma",
+                "objectName": "CloseSigma",
+                "propertyName": "sigma",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Close_Z_Probability",
+                "product": "Close_Sigma",
+                "objectName": "CloseSigma",
+                "propertyName": "ma",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Close_Z_Probability",
+                "product": "Close_Sigma",
+                "objectName": "CloseSigma",
+                "propertyName": "insta",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Close_Z_Probability",
+                "product": "Close_Sigma",
+                "objectName": "CloseSigma",
+                "propertyName": "slope",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Close_Z_Probability",
+                "product": "Close_Sigma",
+                "objectName": "CloseSigma",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Close_Z_Probability",
+                "product": "Close_Sigma",
+                "objectName": "CloseSigma",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Close_Z_Probability",
+                "product": "Close_Sigma",
+                "objectName": "CloseSigma",
+                "propertyName": "strike",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "Close_Z_Probability",
+                "product": "Close_Sigma",
+                "objectName": "CloseSigma",
+                "propertyName": "Z",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "MAX_Z_Probability",
+                "product": "MAX_Z_Probability",
+                "objectName": "MAX_Z_Probability",
+                "propertyName": "map",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "MAX_Z_Probability",
+                "product": "MAX_Z_Probability",
+                "objectName": "MAX_Z_Probability",
+                "propertyName": "sigma",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "MAX_Z_Probability",
+                "product": "MAX_Z_Probability",
+                "objectName": "MAX_Z_Probability",
+                "propertyName": "ma",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "MAX_Z_Probability",
+                "product": "MAX_Z_Probability",
+                "objectName": "MAX_Z_Probability",
+                "propertyName": "insta",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "MAX_Z_Probability",
+                "product": "MAX_Z_Probability",
+                "objectName": "MAX_Z_Probability",
+                "propertyName": "slope",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "MAX_Z_Probability",
+                "product": "MAX_Z_Probability",
+                "objectName": "MAX_Z_Probability",
+                "propertyName": "lower",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "MAX_Z_Probability",
+                "product": "MAX_Z_Probability",
+                "objectName": "MAX_Z_Probability",
+                "propertyName": "upper",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "MAX_Z_Probability",
+                "product": "MAX_Z_Probability",
+                "objectName": "MAX_Z_Probability",
+                "propertyName": "strike",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
+            {
+                "dataMine": "Over_Sampled_Indicators",
+                "indicator": "MAX_Z_Probability",
+                "product": "MAX_Z_Probability",
+                "objectName": "MAX_Z_Probability",
+                "propertyName": "Z",
+                "range": [
+                    
+                    "OFF"
+                ]
+            },
