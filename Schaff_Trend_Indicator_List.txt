@@ -27,12 +27,12 @@ A node from Luis:
 
 
 *******************************
-        Schaff Trend Cycle
+        Schaff_Trend_Cycle
 *******************************
 
 
             {
-                "dataMine": "Schaff Trend Cycle",
+                "dataMine": "Schaff_Trend_Cycle",
                 "indicator": "STC",
                 "product": "STC",
                 "objectName": "STC",
